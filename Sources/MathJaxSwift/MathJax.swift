@@ -70,10 +70,10 @@ public final class MathJax {
   public struct Response {
     
     /// The response's value.
-    let value: String
+    public let value: String
     
     /// The response's error, if any.
-    let error: Error?
+    public let error: Error?
   }
   
   // MARK: Private/internal properties
